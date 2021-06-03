@@ -28,10 +28,10 @@ def question_answer():
         })
         answer_list =[]
         if len(df)>0:
-            df.columns = [df.columns[0].lower(),df.columns[1].lower(),df.columns[1]]
+            df.columns = [df.columns[0].lower(),df.columns[1].lower(),df.columns[2].lower()]
             for i in range(len(df)):
                 print(i)
-                if 'Model' in df.columns:
+                if 'model' in df.columns:
                     if  pd.isna(df['model'][i]) == False:
                         payload = json.dumps({
                             "model": df['model'][i],
