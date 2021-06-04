@@ -28,7 +28,7 @@ Let's you delete an existing model and will return the list of remaining models 
 
 ## Question/Answer</br>
 Use this to post your questions along with context . You may select a model as well </br>
-
+![image](https://user-images.githubusercontent.com/84538282/120741087-6446e780-c4c2-11eb-901e-25073965fa26.png)
 ## Upload Questions</br>
 Use this to bulk upload your questions using a CSV </br>
 ![image](https://user-images.githubusercontent.com/84538282/120740677-ab80a880-c4c1-11eb-8e18-a4becfc22efe.png)
@@ -44,6 +44,7 @@ To run this web application, you'll need the following pre-requisites installed 
 | Python | 3.9.1 or above | <a href="https://www.python.org/downloads/"> Python </a> |
 | Streamlit | 0.82.0 | `pip install streamlit`|
 | Docker Engine | NA | <a href="https://docs.docker.com/engine/"> Docker </a>|
+| Pandas | NA |`pip install pandas`|
 
 You need to install all the dependencies available in requirements.txt
 
