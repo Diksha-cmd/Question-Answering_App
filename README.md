@@ -36,7 +36,7 @@ Use this to bulk upload your questions using a CSV </br>
 Sample CSV</br>
 ![image](https://user-images.githubusercontent.com/84538282/120740754-d10db200-c4c1-11eb-867f-dace69bd32cf.png)
 
-# Prerequisites and Installation </br>
+# Prerequisites and Installation (Dependencies) </br>
 To run this web application, you'll need the following pre-requisites installed on your machine
 
 | Library | Version | Installation |
@@ -55,7 +55,7 @@ There are two ways to deploy the Web App on your local machine:
 <b> 1. Deployment with Streamlit: </b>
 </br>
 </br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. To deploy the app on your local machine through Streamlit, we just need to run the python file
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. To deploy the app on your local machine through Streamlit, we just need to run the python file using command streamlit run App.py(which is the name of python file having code for the application)
 
 ```
 >>> streamlit run webapp.py
