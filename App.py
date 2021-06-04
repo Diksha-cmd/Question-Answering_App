@@ -13,7 +13,13 @@ def question_answer():
     st.title('Amazing Question Answering Thing!')
     # Execute question answering on button press
     # Inputs
-    modelName = st.text_input('Model(optional)')
+    headers = {}
+    response = requests.request("GET", url_2, headers=headers)
+    answer = response.json()
+    df_list = pd.DataFrame(answer)
+    list_models = list(df_list['name'])
+    list_models.append(" ")
+    modelName = st.selectbox('Choose Model (optional)',list_models)
     question = st.text_input('Question')
     context = st.text_area('Context')
     uploaded_file = st.file_uploader("Choose a file")
@@ -57,7 +63,8 @@ def question_answer():
                     answer = response.json()
                     answer_list.append(answer)
         else:
-            if len(modelName) == 0:
+            print("in else")
+            if modelName == " ":
                 payload = json.dumps({
                     "question": question,
                     "context": context
@@ -133,7 +140,12 @@ def delete_models():
     st.title('Delete models from the database')
     # Execute question answering on button press
     # Inputs
-    modelName = st.text_input('Model Name')
+    headers = {}
+    response = requests.request("GET", url_2, headers=headers)
+    answer = response.json()
+    df_list = pd.DataFrame(answer)
+    list_models = list(df_list['name'])
+    modelName = st.selectbox('Model Name',list_models)
     print(modelName)
 
     if st.button('Delete'):
