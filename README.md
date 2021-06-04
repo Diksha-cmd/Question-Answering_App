@@ -3,49 +3,38 @@
 This web applicatoon has been designed to hep users fetch answers to questions using numnerous NLP models . Users willl be able to view the list ov aviailbale models , add new models , delete existing models , ask a question and upload a CSV with bulk questions </br></br>
 
 # Web App URL </br>
-https://mgmt-qna-portal-yu4izdrwlq-uc.a.run.app
+https://webapp-sueoei3pla-uc.a.run.app
 
 # How to use this web app </br>
 
 To use this app : Click on the above URL
 
 # System Architecture</br>
+![image](https://user-images.githubusercontent.com/69768815/120727045-867f3c00-c4a7-11eb-8feb-d2e7020f76a8.png)
 
 ## You should be able to see below layout :
 
-## Home Page:</br>
-This is the landing page of the web app and you will be able to read the instructions on how to navigate through various features </br>
-
-![image](https://user-images.githubusercontent.com/74998715/120737738-9ead8600-c4bc-11eb-8067-6dcffcac707e.png)
-
-## List Models </br>
+## Get Models </br>
 Returns the list of existing models in the system </br>
+![image](https://user-images.githubusercontent.com/84538282/120740360-12519200-c4c1-11eb-8294-bae031c545fc.png)
 
-![image](https://user-images.githubusercontent.com/74998715/120737783-b71da080-c4bc-11eb-8505-19d9646a0578.png)
-
-## Add a model </br>
+## Put models </br>
 Let's you add a new model and will return a list of existing models </br>
+![image](https://user-images.githubusercontent.com/84538282/120740555-69576700-c4c1-11eb-8587-53283db154c0.png)
 
-![image](https://user-images.githubusercontent.com/74998715/120737826-c4d32600-c4bc-11eb-8575-e91a7f4c9ea9.png)
-
-## Delete a model</br>
+## Delete models</br>
 Let's you delete an existing model and will return the list of remaining models </br>
+![image](https://user-images.githubusercontent.com/84538282/120740617-8429db80-c4c1-11eb-9f3b-54237b508d64.png)
 
-![image](https://user-images.githubusercontent.com/74998715/120737847-d3b9d880-c4bc-11eb-96a3-1300d8b45579.png)
-
-## Ask a question</br>
+## Question/Answer</br>
 Use this to post your questions along with context . You may select a model as well </br>
-
-![image](https://user-images.githubusercontent.com/74998715/120737882-e2a08b00-c4bc-11eb-8360-38aa8b05a68d.png)
 
 ## Upload Questions</br>
 Use this to bulk upload your questions using a CSV </br>
-
-![image](https://user-images.githubusercontent.com/74998715/120737916-ef24e380-c4bc-11eb-9db8-e5cec26705e2.png)
+![image](https://user-images.githubusercontent.com/84538282/120740677-ab80a880-c4c1-11eb-8e18-a4becfc22efe.png)
 
 Sample CSV</br>
-
-![image](https://user-images.githubusercontent.com/74998715/120737973-08c62b00-c4bd-11eb-9af0-d7dd0bff9bfc.png)
+![image](https://user-images.githubusercontent.com/84538282/120740754-d10db200-c4c1-11eb-867f-dace69bd32cf.png)
 
 # Prerequisites and Installation </br>
 To run this web application, you'll need the following pre-requisites installed on your machine
