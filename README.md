@@ -3,7 +3,7 @@
 This web application has been designed to hep users fetch answers to questions using numnerous NLP models . Users willl be able to view the list of available models , add new models , delete existing models , ask a question and upload a CSV with bulk questions. This application is made using streamlit library and it calls a flask api to make requests and fetch responses. Backend is esentially Postgresql in cloud database. Refer below architecture for more details </br></br>
 
 # Web App URL </br>
-https://webapp-sueoei3pla-uc.a.run.app
+https://webapp-sueoei3pla-uc.a.run.app (Since the web app was delpoyed using Goggle cloud and the account is currently de-activated hence it is not working as of now, but users can read below description and screenshots to rebuild it)
 
 # How to use this web app </br>
 
